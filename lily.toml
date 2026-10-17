@@ -1,0 +1,10 @@
+[apps."apps/admin"]
+ports = [{ port = 3220, proto = "http" }]
+
+[apps."services/api"]
+ports = [{ port = 8221, proto = "http" }]
+
+[[edges]]
+from = "apps/admin"
+to = "services/api"
+port = 8221

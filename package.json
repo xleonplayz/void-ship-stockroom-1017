@@ -1,0 +1,8 @@
+{
+  "name": "void-ship-stockroom-1017",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/*"
+  ]
+}
